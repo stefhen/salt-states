@@ -1,0 +1,12 @@
+set shiftwidth=2
+set tabstop=2
+set expandtab
+set hls
+set ai
+set autochdir
+set nowrap
+set cursorline
+set laststatus=2
+set scrolloff=6
+set background=dark
+syntax on

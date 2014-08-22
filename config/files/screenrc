@@ -1,0 +1,5 @@
+hardstatus alwayslastline "%-Lw%{= RW}%50>%n%f* %t%{-}%+Lw%<" 
+startup_message off
+setenv DISPLAY ':0'
+altscreen on
+bind = resize =
