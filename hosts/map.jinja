@@ -1,0 +1,8 @@
+{% set hosts = salt['grains.filter_by']({
+  'Debian': {
+    'hostname': '/etc/hostname'
+  },
+  'RedHat': {
+    'hostname': '/etc/sysconfig/network'
+  },
+}, merge=salt['pillar.get']('hosts:lookup')) %}
