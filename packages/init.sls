@@ -7,3 +7,10 @@ core_packages:
       - git
       - lvm2
       - mosh
+      - python-pip
+
+boto:
+  pip.installed
+
+awscli:
+  pip.installed
