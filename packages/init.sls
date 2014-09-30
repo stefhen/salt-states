@@ -6,3 +6,4 @@ core_packages:
       - rsync
       - git
       - lvm2
+      - mosh
