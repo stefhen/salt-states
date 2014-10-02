@@ -7,6 +7,8 @@ core_packages:
       - git
       - lvm2
       - mosh
+      - screen
+      - tmux
       - python-pip
 
 boto:
