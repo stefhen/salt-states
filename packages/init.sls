@@ -9,6 +9,7 @@ core_packages:
       - mosh
       - screen
       - tmux
+      - nmap
       - python-pip
 
 boto:
